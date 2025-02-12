@@ -1,0 +1,10 @@
+{
+    "dag_id": "ind_currency_rate",
+    "schedule_interval": null,
+    "catchup": false,
+    "is_paused_upon_creation": false,
+    "sql_files": [
+        "sql/extract_process.sql",
+        "sql/merge_process.sql"
+    ]
+}
